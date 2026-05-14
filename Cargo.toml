@@ -1,0 +1,12 @@
+[package]
+name = "puzzle-15"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+egui-chinese-font = "0.1"
+egui = "0.27"
+eframe = "0.27"
+rand = "0.8"
+egui_extras = { version = "0.27", features = ["all_loaders"] }
+image = { version = "0.25", features = ["jpeg", "png"] }
